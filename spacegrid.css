@@ -1,0 +1,33 @@
+/* ----- SCSS USAGE ----- */
+.spacegrid {
+  width: 100%;
+  background-color: grey;
+  padding-bottom: 20px;
+  overflow: hidden; }
+  .spacegrid > div {
+    position: relative;
+    float: left;
+    width: calc((100% - (3 + 1)*20px)/3);
+    padding-bottom: calc(1*(100% - (3 + 1)*20px)/3 - (0px + 0px));
+    margin: 20px 0px calc(3px + 50px) 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 0px 0px 0px 0px; }
+    .spacegrid > div div:nth-of-type(1) {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      overflow: hidden; }
+    .spacegrid > div div:nth-of-type(2) {
+      position: absolute;
+      height: 50px;
+      width: 100%;
+      bottom: calc(-50px - 3px);
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+  .spacegrid div {
+    background-color: #FFFFFF; }
