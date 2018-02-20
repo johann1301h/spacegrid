@@ -1,4 +1,4 @@
-# spacegrid
+# Spacegrid
 
 Spacegrid is a grid based on these core principles:
 
