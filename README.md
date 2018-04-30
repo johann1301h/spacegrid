@@ -1,5 +1,7 @@
 # Spacegrid
 
+## Spacegrid a product layout CSS framework
+
 Spacegrid is a grid based on these core principles:
 
 1. The space surrounding the elements is constant
