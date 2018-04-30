@@ -1,0 +1,26 @@
+// Compile
+@import 'spacegrid.scss';
+div.grid {
+  @include spacegrid;
+  div {
+    cursor: pointer;
+    &.image {
+      background-size: cover;
+      background-position: center;
+    }
+    &.info { // Text styling
+      text-align: center;
+      font-family: sans-serif;
+      padding: 10px;
+    }
+  }
+}
+nav {
+  width: 100%;
+  padding: 20px;
+  a {
+    color: #333;
+    font-style: italic;
+    margin: 20px;
+  }
+}
